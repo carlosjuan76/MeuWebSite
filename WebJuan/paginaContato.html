@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Juan Carlos Aragão Vidal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333; /* Fundo cinza */
+            color: white; /* Letras brancas */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        #formulario {
+            background-color: #222; /* Fundo escuro para o formulário */
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        #formulario input[type="text"],
+        #formulario input[type="email"],
+        #formulario textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #666;
+            border-radius: 5px;
+        }
+
+        #formulario button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #links-sociais {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #links-sociais a {
+            text-decoration: none;
+            color: #0066cc;
+            margin: 0 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="paginaInicial.html">Página Inicial</a></li>
+                <li><a href="paginaSobre.html">Sobre</a></li>
+                <li><a href="paginaProjetos.html">Projetos</a></li>
+                <li><a href="paginaContato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contato</h1>
+
+        <div id="formulario">
+            <form action="mailto:seuemail@example.com" method="post" enctype="text/plain">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div id="links-sociais">
+            <a href="https://www.linkedin.com/in/juan-carlos-aragão-vidal-4ab4a51b5" target="_blank">LinkedIn</a>
+            <a href="https://github.com/carlosjuan76/MeuWebSite.git" target="_blank">Github</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Juan Carlos Aragão Vidal</p>
+    </footer>
+</body>
+</html>
